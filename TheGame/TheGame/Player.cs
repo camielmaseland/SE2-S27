@@ -33,5 +33,10 @@ namespace TheGame
 
         }
 
+        public enum Action
+        {
+            NoAction, MoveUp, MoveRight, MoveDown, MoveLeft, PerformAction
+        }
+
     }
 }
