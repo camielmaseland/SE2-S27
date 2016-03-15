@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace TheGame
 {
     class Player
     {
-        public Point position;
-        public Boolean powerUp;
-        public int hitPoints;
+        public Point position { get; set; }
+        public Boolean powerUp { get; set; }
+        public int hitPoints { get; set; }
+
+        public Player(Point positionPoint, Boolean powerUp, int hitPoints)
+        {
+
+        }
 
         public void update()
         {
